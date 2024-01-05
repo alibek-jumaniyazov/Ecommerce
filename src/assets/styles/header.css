@@ -1,0 +1,108 @@
+.Header {
+    background-color: white;
+    width: 100%;
+}
+
+header {
+    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 86px;
+}
+
+.headerSearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+
+}
+
+.headerSerachInput {
+    width: 421px;
+    height: 40px;
+    border: 3px solid #0D6EFD;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.headerSerachInput::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #8B96A5;
+}
+
+.headerSelect {
+    width: 145px;
+    height: 40px;
+    border: 3px solid #0D6EFD;
+    border-radius: 0px;
+}
+
+
+
+.headerSerachBtn {
+    width: 100px;
+    height: 40px;
+    background-color: #127FFF;
+    border-radius: 0px 6px 6px 0px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+}
+
+.headerActions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #8B96A5;
+    cursor: pointer;
+}
+
+.headerCategory {
+    width: 1440px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 0px;
+}
+.headerCategory select{
+    border: none;
+    outline: none;
+}
+
+.categoryList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+
+.listItems {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #212020d5;
+}
+hr{
+    height: 1px;
+    width: 100%;
+    border: 1px solid #E0E0E0
+}
