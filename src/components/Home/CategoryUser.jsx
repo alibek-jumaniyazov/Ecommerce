@@ -1,7 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import JoinedUser from './main/JoinedUser'
+import SaleNew from './main/SaleNew'
 
 export default function CategoryUser() {
+
+    const [saleNew , setSaleNew] = useState([
+        {
+            id:1,
+            description:"Get US $10 off with a new supplier",
+            bgColor:'#F38332'
+        },
+        {
+            id:2,
+            description:"Send quotes with supplier preferences",
+            bgColor:'#55BDC3'
+        },
+        
+    ]) 
+
+
     return (
         <div className='CategoryUser'>
             <div className="categoryText">
@@ -21,7 +38,10 @@ export default function CategoryUser() {
                 <button>Learn more</button>
             </div>
             <div className="categoryUserHaator">
-                <JoinedUser/>
+                <JoinedUser />
+                <div className="categorySaleNew">
+                    <SaleNew/>
+                </div>
             </div>
         </div>
     )
