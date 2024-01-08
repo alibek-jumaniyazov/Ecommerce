@@ -80,7 +80,8 @@ header {
     padding: 10px 0px;
 
 }
-.headerCategory select{
+
+.headerCategory select {
     border: none;
     outline: none;
 }
@@ -102,7 +103,8 @@ header {
     line-height: 22px;
     color: #212020d5;
 }
-hr{
+
+hr {
     height: 1px;
     width: 100%;
     border: 1px solid #E0E0E0;

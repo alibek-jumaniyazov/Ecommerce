@@ -5,6 +5,7 @@ import { BrowserRouter } from 'react-router-dom'
 import './assets/styles/style.css'
 import './assets/styles/header.css'
 import './assets/styles/footer.css'
+import './assets/styles/home.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>

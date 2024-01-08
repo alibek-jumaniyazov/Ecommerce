@@ -15,7 +15,7 @@
 
 .footer-head__infos {
     width: 1440px;
-    margin: 0 auto;
+    margin: 30px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,6 +34,7 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 137.5%;
+    margin-bottom: 4px;
 }
 
 .infosTexts span {
@@ -44,9 +45,36 @@
     letter-spacing: -0.2px;
 }
 
+.oneHatorl {
+    gap: 20px;
+}
+
+.oneHatorl span {
+    width: 276px;
+}
+
+.textIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.textIcons svg {
+    cursor: pointer;
+}
+
 .footerFot {
     width: 100%;
     height: 64px;
     border-top: 1px solid var(--gray-300, #DEE2E7);
     background: var(--gray-200, #EFF2F4);
+}
+
+.footer-fot__infos{
+    width: 1440px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

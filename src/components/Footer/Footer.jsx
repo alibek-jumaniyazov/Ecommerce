@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../../assets/icons/logo-colored.svg'
 export default function Footer() {
+  
   return (
     <div className='Footer'>
       <div className="footerHead">
@@ -34,28 +35,28 @@ export default function Footer() {
             <span>Blogs</span>
           </div>
           <div className="infosTexts">
-            <p>About</p>
+            <p>Partnership</p>
             <span>About Us</span>
             <span>Find store</span>
             <span>Categories</span>
             <span>Blogs</span>
           </div>
           <div className="infosTexts">
-            <p>About</p>
-            <span>About Us</span>
-            <span>Find store</span>
-            <span>Categories</span>
-            <span>Blogs</span>
+            <p>Information</p>
+            <span>Help Center</span>
+            <span>Money Refund</span>
+            <span>Shipping</span>
+            <span>Contact us</span>
           </div>
           <div className="infosTexts">
-            <p>About</p>
-            <span>About Us</span>
-            <span>Find store</span>
-            <span>Categories</span>
-            <span>Blogs</span>
+            <p>For users</p>
+            <span>Login</span>
+            <span>Register</span>
+            <span>Settings  </span>
+            <span>My Orders</span>
           </div>
           <div className="infosTexts">
-            <p>About</p>
+            <p>Get app</p>
             <svg xmlns="http://www.w3.org/2000/svg" width="124" height="42" viewBox="0 0 124 42" fill="none">
               <rect width="124" height="42" rx="6" fill="#1C1C1C" />
               <path d="M24.9292 8.6897C25.0796 10.0467 24.5379 11.384 23.7462 12.3669C22.9201 13.3345 21.5985 14.0747 20.3113 13.9793C20.1428 12.6736 20.795 11.2851 21.5251 10.4379C22.3503 9.47658 23.7834 8.74006 24.9292 8.6897Z" fill="white" />
@@ -111,7 +112,11 @@ export default function Footer() {
       </div>
       <div className="footerFot">
         <div className="footer-fot__infos">
-
+          <p>© 2023 Ecommerce. </p>
+          <select name="" id="" >
+            <option value="help">Ship to</option>
+            <option value="fuck">fuck</option>
+          </select>
         </div>
       </div>
     </div>
