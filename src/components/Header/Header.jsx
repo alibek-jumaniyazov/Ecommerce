@@ -71,6 +71,9 @@ export default function Header() {
                     </select>
                 </div>
             </div>
+
+            <hr />
+
         </div>
     )
 }
