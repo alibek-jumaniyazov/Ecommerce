@@ -10,11 +10,11 @@
 
 .CategoryUser {
     width: 100%;
-    height: 400px;
+    height: 450px;
     background-color: white;
     border: 1px solid rgba(222, 226, 231, 1);
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,16 +78,87 @@
     align-items: center;
     gap: 10px;
     border-radius: 6px;
-    background:  linear-gradient(180deg, #127FFF 0%, #0067FF 100%);
+    background: linear-gradient(180deg, #127FFF 0%, #0067FF 100%);
     border: none;
-    color:  #FFF;
+    color: #FFF;
     font-size: 13px;
     font-weight: 500;
     cursor: pointer;
 }
-.login{
+
+.login {
     border-radius: 6px;
     border: 1px solid var(--gray-300, #DEE2E7);
     background: var(--white, #FFF);
     color: #0D6EFD;
+}
+
+.SaleNew {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 95px;
+    border-radius: 6px;
+    background: #F38332;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.SaleNew p {
+    width: 144px;
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.categorySaleNew {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.categoryUserHaator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.categoryText {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.categoryText p {
+    width: 250px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 6px;
+    display: flex;
+    justify-content: flex-start;
+    align-self: center;
+    padding: 10px;
+    color: #505050;
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.4s ease;
+}
+
+.categoryText p:hover {
+    background-color: #E5F1FF;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    color: #1C1C1C;
+    font-size: 16px;
+    font-weight: 500;
 }

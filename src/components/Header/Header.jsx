@@ -21,7 +21,7 @@ export default function Header() {
                         defaultValue="lucy"
                         onChange={handleChange}
                         options={[
-                            { value: 'jack', label: 'Jack' },
+                            { value: 'All category', label: 'All category' },
                             { value: 'lucy', label: 'Lucy' },
                             { value: 'Yiminghe', label: 'yiminghe' },
                             // { value: 'disabled', label: 'Disabled', disabled: true },
@@ -52,7 +52,7 @@ export default function Header() {
             <div className="headerCategory">
                 <div className="categoryList">
                     <p className="listItems">
-                        <i class="fa-solid fa-bars"></i>
+                        <button> <i class="fa-solid fa-bars"></i></button>
                         All category
                     </p>
                     <p className="listItems">Hot offers</p>

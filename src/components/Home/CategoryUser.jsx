@@ -4,20 +4,20 @@ import SaleNew from './main/SaleNew'
 
 export default function CategoryUser() {
 
-    const [saleNew , setSaleNew] = useState([
+    const [saleNew, setSaleNew] = useState([
         {
-            id:1,
-            description:"Get US $10 off with a new supplier",
-            bgColor:'#F38332'
+            id: 1,
+            description: "Get US $10 off with a new supplier",
+            bgColor: '#F38332'
         },
         {
-            id:2,
-            description:"Send quotes with supplier preferences",
-            bgColor:'#55BDC3'
+            id: 2,
+            description: "Send quotes with supplier preferences",
+            bgColor: '#55BDC3'
         },
-        
-    ]) 
 
+    ])
+        
 
     return (
         <div className='CategoryUser'>
@@ -40,7 +40,11 @@ export default function CategoryUser() {
             <div className="categoryUserHaator">
                 <JoinedUser />
                 <div className="categorySaleNew">
-                    <SaleNew/>
+                    {
+                        saleNew.map((item) => (
+                            <SaleNew item={item} />
+                        ))
+                    }
                 </div>
             </div>
         </div>
