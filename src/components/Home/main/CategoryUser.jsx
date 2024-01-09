@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import JoinedUser from './main/JoinedUser'
-import SaleNew from './main/SaleNew'
-import bgImg from '../../assets/icons/Banner.png'
+import JoinedUser from './JoinedUser'
+import SaleNew from './SaleNew'
+import bgImg from '../../../assets/icons/Banner.png'
 
 export default function CategoryUser() {
 
@@ -38,7 +38,7 @@ export default function CategoryUser() {
                 <div className="bannerSaleText">
                     <p>Latest trending</p>
                     <span>Electronic items</span>
-                    <button>Learn more</button>
+                    <button className='defoultStyleBtn'>Learn more</button>
                 </div>
             </div>
             <div className="categoryUserHaator">
