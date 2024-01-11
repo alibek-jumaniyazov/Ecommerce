@@ -534,3 +534,7 @@
     width: 111px;
     height: 40px;
 }
+.RecommendedItems__title{
+    text-align: left;
+    width: 100%;
+}

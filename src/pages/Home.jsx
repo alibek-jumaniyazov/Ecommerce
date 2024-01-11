@@ -6,6 +6,8 @@ import SendRequestSection from '../components/Home/main/SendRequestSection'
 import productBGImg from '../assets/icons/productBGImg.png'
 import productBGImg2 from '../assets/icons/productBGImg2.png'
 import addImg1 from '../assets/icons/addImg1.png'
+import productImg1 from '../assets/icons/productImg1.png'
+import RecommendSection from '../components/Home/main/RecommendSection'
 
 export default function Home() {
 
@@ -145,6 +147,70 @@ export default function Home() {
     },
   })
 
+
+  const [products, setProducts] = useState([
+    {
+      id: 1,
+      img: productImg1,
+      price: 10.30,
+      desc: ''
+    },
+    {
+      id: 2,
+      img: productImg1,
+      price: 10.30,
+      desc: ''
+    },
+    {
+      id: 3,
+      img: productImg1,
+      price: 10.30,
+      desc: ''
+    },
+    {
+      id: 4,
+      img: productImg1,
+      price: 10.30,
+      desc: ''
+    },
+    {
+      id: 5,
+      img: productImg1,
+      price: 10.30,
+      desc: ''
+    },
+    {
+      id: 6,
+      img: productImg1,
+      price: 10.30,
+      desc: ''
+    },
+    {
+      id: 7,
+      img: productImg1,
+      price: 10.30,
+      desc: ''
+    },
+    {
+      id: 8,
+      img: productImg1,
+      price: 10.30,
+      desc: ''
+    },
+    {
+      id: 9,
+      img: productImg1,
+      price: 10.30,
+      desc: ''
+    },
+    {
+      id: 10,
+      img: productImg1,
+      price: 10.30,
+      desc: ''
+    },
+  ])
+
   return (
     <div className='Home' >
       <CategoryUser />
@@ -154,6 +220,9 @@ export default function Home() {
         <AddSection addProduct={addProduct.sectionTow} />
       </div >
       <SendRequestSection />
+      <h1 className='RecommendedItems__title'>Recommended items</h1>
+      
+      <RecommendSection />
     </div>
   )
 }
