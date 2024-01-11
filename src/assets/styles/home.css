@@ -444,3 +444,93 @@
     border-radius: 6px;
 
 }
+
+.SendRequestSection__bgColor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.sendRequest__texts {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.sendRequest__texts p {
+    width: 440px;
+    color: #FFF;
+    font-size: 39px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+}
+
+.sendRequest__texts span {
+    width: 390px;
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: -0.2px;
+}
+
+.sendRequest__post {
+    width: 491px;
+    height: 346px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 18px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 6px;
+    padding: 30px;
+}
+
+.sendRequest__textarea {
+    display: flex;
+    width: 430px;
+    height: 73px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border: 1px solid #DEE2E7;
+    border-radius: 6px;
+    outline: none;
+    padding: 10px;
+}
+
+.sentRequestPost__fot {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.sendRecuest__inputTow {
+    width: 206px;
+    height: 40px;
+}
+
+.sendRecuest__inputTow::placeholder {
+    color: #1C1C1C;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sendRecuest__inputOne {}
+
+.sendRecuest__inputOne::placeholder {
+    color: #1C1C1C;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.sendRecuest__select {
+    width: 111px;
+    height: 40px;
+}
