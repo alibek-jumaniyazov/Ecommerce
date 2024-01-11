@@ -153,61 +153,61 @@ export default function Home() {
       id: 1,
       img: productImg1,
       price: 10.30,
-      desc: ''
+      desc: 'T-shirts with multiple colors, for men'
     },
     {
       id: 2,
       img: productImg1,
       price: 10.30,
-      desc: ''
+      desc: 'Jeans shorts for men blue color'
     },
     {
       id: 3,
       img: productImg1,
       price: 10.30,
-      desc: ''
+      desc: 'Brown winter coat medium size'
     },
     {
       id: 4,
       img: productImg1,
       price: 10.30,
-      desc: ''
+      desc: 'Jeans bag for travel for men'
     },
     {
       id: 5,
       img: productImg1,
       price: 10.30,
-      desc: ''
+      desc: 'Leather wallet'
     },
     {
       id: 6,
       img: productImg1,
       price: 10.30,
-      desc: ''
+      desc: 'Canon camera black, 100x zoom'
     },
     {
       id: 7,
       img: productImg1,
       price: 10.30,
-      desc: ''
+      desc: 'Headset for gaming with mic'
     },
     {
       id: 8,
       img: productImg1,
       price: 10.30,
-      desc: ''
+      desc: 'Smart watch silver color modern'
     },
     {
       id: 9,
       img: productImg1,
       price: 10.30,
-      desc: ''
+      desc: 'Blue wallet for men leather metarfial'
     },
     {
       id: 10,
       img: productImg1,
       price: 10.30,
-      desc: ''
+      desc: 'Jeans bag for travel for men'
     },
   ])
 
@@ -222,7 +222,7 @@ export default function Home() {
       <SendRequestSection />
       <h1 className='RecommendedItems__title'>Recommended items</h1>
       
-      <RecommendSection />
+      <RecommendSection products={products}/>
     </div>
   )
 }
