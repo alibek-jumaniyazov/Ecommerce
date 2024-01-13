@@ -25,6 +25,7 @@ import fromIcon9 from '../assets/icons/fromIcon9.svg'
 import RecommendSection from '../components/Home/main/RecommendSection'
 import ExtraService from '../components/Home/main/ExtraService'
 import FromIcon from '../components/Home/main/FromIcon'
+import Subscribe from '../components/Home/main/Subscribe'
 
 export default function Home() {
 
@@ -344,7 +345,7 @@ export default function Home() {
       <div className="FromIcons">
         {
           flag.map((item) => (
-            <FromIcon item={item}/>
+            <FromIcon item={item} />
           ))
         }
       </div>
