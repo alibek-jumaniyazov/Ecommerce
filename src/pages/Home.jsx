@@ -20,12 +20,9 @@ import fromIcon6 from '../assets/icons/fromIcon6.svg'
 import fromIcon7 from '../assets/icons/fromIcon7.svg'
 import fromIcon8 from '../assets/icons/fromIcon8.svg'
 import fromIcon9 from '../assets/icons/fromIcon9.svg'
-
-
 import RecommendSection from '../components/Home/main/RecommendSection'
 import ExtraService from '../components/Home/main/ExtraService'
 import FromIcon from '../components/Home/main/FromIcon'
-import Subscribe from '../components/Home/main/Subscribe'
 
 export default function Home() {
 
