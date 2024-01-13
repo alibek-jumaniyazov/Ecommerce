@@ -7,7 +7,24 @@ import productBGImg from '../assets/icons/productBGImg.png'
 import productBGImg2 from '../assets/icons/productBGImg2.png'
 import addImg1 from '../assets/icons/addImg1.png'
 import productImg1 from '../assets/icons/productImg1.png'
+import serviceImg1 from '../assets/icons/serviceImg1.png'
+import serviceImg2 from '../assets/icons/serviceImg2.png'
+import serviceImg3 from '../assets/icons/serviceImg3.png'
+import serviceImg4 from '../assets/icons/serviceImg4.png'
+import fromIcon1 from '../assets/icons/fromIcon1.svg'
+import fromIcon2 from '../assets/icons/fromIcon2.svg'
+import fromIcon3 from '../assets/icons/fromIcon3.svg'
+import fromIcon4 from '../assets/icons/fromIcon4.svg'
+import fromIcon5 from '../assets/icons/fromIcon5.svg'
+import fromIcon6 from '../assets/icons/fromIcon6.svg'
+import fromIcon7 from '../assets/icons/fromIcon7.svg'
+import fromIcon8 from '../assets/icons/fromIcon8.svg'
+import fromIcon9 from '../assets/icons/fromIcon9.svg'
+
+
 import RecommendSection from '../components/Home/main/RecommendSection'
+import ExtraService from '../components/Home/main/ExtraService'
+import FromIcon from '../components/Home/main/FromIcon'
 
 export default function Home() {
 
@@ -211,6 +228,99 @@ export default function Home() {
     },
   ])
 
+  const [service, setService] = useState([
+    {
+      id: 1,
+      img: serviceImg1,
+      title: "Source from Industry Hubs",
+      icon: "fa-solid fa-magnifying-glass",
+    },
+
+    {
+      id: 2,
+      img: serviceImg2,
+      title: "Customize Your Products",
+      icon: " fa-solid fa-box-archive",
+    },
+
+    {
+      id: 3,
+      img: serviceImg3,
+      title: "Fast, reliable shipping by ocean or air",
+      icon: "fa-solid fa-paper-plane",
+    },
+    {
+      id: 4,
+      img: serviceImg4,
+      title: "Product monitoring and inspection",
+      icon: "fa-solid fa-shield-halved",
+    },
+
+  ])
+
+  const [flag, setFlag] = useState([
+    {
+      id: 1,
+      img: fromIcon1,
+      name: "Australia",
+      title: "shopname.ae"
+    },
+    {
+      id: 2,
+      img: fromIcon2,
+      name: "United States",
+      title: "shopname.ae"
+    },
+    {
+      id: 3,
+      img: fromIcon3,
+      name: "Russia",
+      title: "shopname.ru"
+    },
+    {
+      id: 4,
+      img: fromIcon4,
+      name: "Italy",
+      title: "shopname.it"
+    },
+    {
+      id: 5,
+      img: fromIcon5,
+      name: "France",
+      title: "shopname.com.fr"
+    },
+    {
+      id: 6,
+      img: fromIcon6,
+      name: "Arabic Emirates",
+      title: "shopname.ae"
+    },
+    {
+      id: 7,
+      img: fromIcon7,
+      name: "China",
+      title: "shopname.ae"
+    },
+    {
+      id: 8,
+      img: fromIcon1,
+      name: "Great Britain",
+      title: "shopname.co.uk"
+    },
+    {
+      id: 9,
+      img: fromIcon8,
+      name: "Arabic Emirates",
+      title: "shopname.ae"
+    },
+    {
+      id: 10,
+      img: fromIcon9,
+      name: "Denmark",
+      title: "denmark.com.dk"
+    },
+  ])
+
   return (
     <div className='Home' >
       <CategoryUser />
@@ -221,8 +331,23 @@ export default function Home() {
       </div >
       <SendRequestSection />
       <h1 className='RecommendedItems__title'>Recommended items</h1>
-      
-      <RecommendSection products={products}/>
+      <RecommendSection products={products} />
+      <h1 className='RecommendedItems__title'>Our extra services</h1>
+      <div className="ExtraServices">
+        {
+          service.map((item) => (
+            <ExtraService item={item} />
+          ))
+        }
+      </div>
+      <h1 className='RecommendedItems__title'>Suppliers by region</h1>
+      <div className="FromIcons">
+        {
+          flag.map((item) => (
+            <FromIcon item={item}/>
+          ))
+        }
+      </div>
     </div>
   )
 }
