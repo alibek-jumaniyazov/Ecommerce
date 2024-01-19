@@ -3,7 +3,8 @@ import Home from "./pages/Home"
 import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
 import Subscribe from "./components/Home/main/Subscribe"
-import CategoryUser from "./components/Home/main/CategoryUser"
+import CategoryProduct from "./pages/CategoryProduct"
+import NotFound from "./pages/NotFound"
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
       <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="category/:name" element={<CategoryProduct />} />
+          <Route path="category" element={<CategoryProduct />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
       <Subscribe />

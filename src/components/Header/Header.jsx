@@ -1,6 +1,7 @@
 import { Button, Input, Select } from 'antd'
 import React from 'react'
 import logo from '../../assets/icons/logo-colored.svg'
+import { Link } from 'react-router-dom';
 
 export default function Header() {
 
@@ -11,9 +12,11 @@ export default function Header() {
     return (
         <div className='Header'>
             <header>
-                <div className="headerLogo">
-                    <img src={logo} alt="" />
-                </div>
+                <Link to={'/'} >
+                    <div className="headerLogo">
+                        <img src={logo} alt="" />
+                    </div>
+                </Link>
                 <div className="headerSearch">
                     <Input placeholder="Search" className='headerSerachInput' />
                     <Select
