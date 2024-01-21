@@ -35,7 +35,7 @@ export default function Home() {
       <div className="FromIcons">
         {
           flag.map((item) => (
-            <FromIcon item={item} />
+            <FromIcon item={item} key={item.id}/>
           ))
         }
       </div>

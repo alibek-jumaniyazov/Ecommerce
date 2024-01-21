@@ -34,19 +34,19 @@ export default function Header() {
                 </div>
                 <div className="headerActions">
                     <div className="action">
-                        <i class="fa-solid fa-user"></i>
+                        <i className="fa-solid fa-user"></i>
                         <p>Profile</p>
                     </div>
                     <div className="action">
-                        <i class="fa-solid fa-message"></i>
+                        <i className="fa-solid fa-message"></i>
                         <p>Message</p>
                     </div>
                     <div className="action">
-                        <i class="fa-solid fa-heart"></i>
+                        <i className="fa-solid fa-heart"></i>
                         <p>Orders</p>
                     </div>
                     <div className="action">
-                        <i class="fa-solid fa-cart-shopping"></i>
+                        <i className="fa-solid fa-cart-shopping"></i>
                         <p>My cart</p>
                     </div>
                 </div>
@@ -55,7 +55,7 @@ export default function Header() {
             <div className="headerCategory">
                 <div className="categoryList">
                     <p className="listItems">
-                        <button> <i class="fa-solid fa-bars"></i></button>
+                        <button> <i className="fa-solid fa-bars"></i></button>
                         All category
                     </p>
                     <p className="listItems">Hot offers</p>

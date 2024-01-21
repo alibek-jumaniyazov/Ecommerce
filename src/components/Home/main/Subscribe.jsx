@@ -8,7 +8,7 @@ export default function Subscribe() {
             <span className='Subscribe__desc'>Get daily news on upcoming offers from many suppliers all over the world</span>
             <div className="SubscribeInputBtn">
                 <div className="Subscribe__input">
-                    <i class="fa-regular fa-envelope"></i>
+                    <i className="fa-regular fa-envelope"></i>
                     <input type="text" placeholder='Email' />
                 </div>
                 <Button className='sentRequestPost__btn' type="primary">Subscribe</Button>

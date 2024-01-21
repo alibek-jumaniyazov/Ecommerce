@@ -6,7 +6,7 @@ export default function RecommendSection({products}) {
     <div className='RecommendSection'>
       {
         products.map((item) => (
-          <Product item={item}/>
+          <Product item={item} key={item.id}/>
         ))
       }
     </div>

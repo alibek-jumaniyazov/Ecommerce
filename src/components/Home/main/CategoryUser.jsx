@@ -46,7 +46,7 @@ export default function CategoryUser() {
                 <div className="categorySaleNew">
                     {
                         saleNew.map((item) => (
-                            <SaleNew item={item} />
+                            <SaleNew item={item} key={item.id}/>
                         ))
                     }
                 </div>
