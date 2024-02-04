@@ -332,3 +332,138 @@
 .vanderProduct__save i {
     font-size: 16px;
 }
+
+.ProductDesc {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ProductDesctComment {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 1100px;
+    height: 618px;
+    border: 1px solid #DEE2E7;
+    box-shadow: 0px 1px 3px 0px #3838381A;
+}
+
+.productDesc__header {
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    padding: 20px 30px;
+    border-bottom: 1px solid #DEE2E7;
+}
+
+.productDesc__headerText {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #8B96A5;
+    cursor: pointer;
+}
+
+.DescActive {
+    color: #0D6EFD;
+}
+
+.descHeader__textBorder {
+    position: absolute;
+    width: 95px;
+    height: 2px;
+    background-color: #0D6EFD;
+    left: 25px;
+    bottom: 0;
+}
+
+.productFullDescription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 30px;
+}
+
+.fullText {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #505050;
+}
+
+.productModel {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0;
+}
+
+.productModel__titles {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 1px solid #E0E7E9;
+    background-color: #EFF2F4;
+}
+
+.productModel__infos {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 1px solid #E0E7E9;
+    background-color: white;
+}
+
+.productModel__titles span {
+    padding: 8px 20px;
+    width: 204px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #505050;
+    border-bottom: 1px solid #E0E7E9;
+}
+
+.productModel__infos span {
+    padding: 8px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #505050;
+    border-bottom: 1px solid #E0E7E9;
+}
+
+.productSacces {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.productSacces p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    color: #505050;
+}

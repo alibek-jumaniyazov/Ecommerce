@@ -1,5 +1,6 @@
 import React from 'react'
 import ProductInfoChildren from '../components/ProductPage/ProductInfoChildren'
+import ProductDesc from '../components/ProductPage/ProductDesc'
 
 export default function ProductInfo() {
   return (
@@ -14,6 +15,7 @@ export default function ProductInfo() {
         Summer clothing
       </p>
       <ProductInfoChildren />
+      <ProductDesc/>
     </div>
   )
 }
