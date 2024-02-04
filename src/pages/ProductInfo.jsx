@@ -1,7 +1,7 @@
 import React from 'react'
-import ProductInfo from '../components/ProductPage/ProductInfo'
+import ProductInfoChildren from '../components/ProductPage/ProductInfoChildren'
 
-export default function CategoryProduct() {
+export default function ProductInfo() {
   return (
     <div className='CategoryProduct'>
       <p className="categoryProduct__hosting">
@@ -13,7 +13,7 @@ export default function CategoryProduct() {
         <i className="fa-solid fa-angle-right"></i>
         Summer clothing
       </p>
-      <ProductInfo/>
+      <ProductInfoChildren />
     </div>
   )
 }

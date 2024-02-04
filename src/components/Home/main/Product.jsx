@@ -1,10 +1,6 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
 
 export default function Product({item}) {
-
-  const params = useParams(null)
-  console.log(params);
 
   return (
     <div className='Product'>

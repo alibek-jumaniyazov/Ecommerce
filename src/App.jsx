@@ -3,7 +3,7 @@ import Home from "./pages/Home"
 import Header from "./components/Header/Header"
 import Footer from "./components/Footer/Footer"
 import Subscribe from "./components/Home/main/Subscribe"
-import CategoryProduct from "./pages/CategoryProduct"
+import ProductInfo from "./pages/ProductInfo"
 import NotFound from "./pages/NotFound"
 import Product from "./components/Home/main/Product"
 
@@ -15,8 +15,7 @@ function App() {
       <div className="container">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="category" element={<CategoryProduct />} />
-          <Route path="product/:name" element={<Product />} />
+          <Route path="product" element={<ProductInfo />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
