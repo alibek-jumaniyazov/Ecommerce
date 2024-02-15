@@ -1,6 +1,7 @@
 import React from 'react'
 import ProductInfoChildren from '../components/ProductPage/ProductInfoChildren'
 import ProductDesc from '../components/ProductPage/ProductDesc'
+import Relate from '../components/ProductPage/Relate'
 
 export default function ProductInfo() {
   return (
@@ -15,7 +16,8 @@ export default function ProductInfo() {
         Summer clothing
       </p>
       <ProductInfoChildren />
-      <ProductDesc/>
+      <ProductDesc />
+      <Relate/>
     </div>
   )
 }
