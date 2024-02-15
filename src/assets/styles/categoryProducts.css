@@ -560,7 +560,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 22px;
+    padding: 32px;
     gap: 13px;
     background: white;
     border-radius: 6px;
@@ -584,7 +584,8 @@
     justify-content: center;
     gap: 14px;
 }
-.realateProduct__img{
+
+.realateProduct__img {
     width: 172px;
     height: 172px;
     display: flex;
@@ -592,5 +593,20 @@
     justify-content: center;
     border-radius: 6px;
     background: rgba(238, 238, 238, 1);
-    
+}
+
+.realateProduct__title {
+    width: 142px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+}
+
+.realateProduct__price {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    color: rgba(139, 150, 165, 1);
 }
